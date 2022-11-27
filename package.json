@@ -1,0 +1,25 @@
+{
+  "name": "iniciando_com_nodejs",
+  "version": "1.0.0",
+  "description": "Primeiro projeto 2022 CodeDrops",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node-dev -r tsconfig-paths/register --respawn --transpile-only --ignore-watch node_modules ."
+  },
+  "author": "Fernanda Mendonça",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.14",
+    "@types/node": "^18.11.9",
+    "prisma": "^4.6.1",
+    "ts-node": "^10.9.1",
+    "ts-node-dev": "^2.0.0",
+    "tsconfig-paths": "^4.1.0",
+    "tscpaths": "^0.0.9",
+    "typecript": "^0.0.1-security",
+    "typescript": "^4.9.3"
+  }
+}

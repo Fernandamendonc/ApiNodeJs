@@ -1,0 +1,27 @@
+POST http://localhost:4002/products
+content-type: application/json
+
+{
+  "name": "caneta pretas",
+  "price": 8
+}
+
+###
+
+GET http://localhost:4002/products
+
+###
+
+GET http://localhost:4002/products/85b1e66f-5539-4579-88e6-b612b6a63e1c
+###
+PUT http://localhost:4002/products/e5331b96-e52a-40e8-a21e-7692f34a084c
+content-type: application/json
+
+{
+  "name": "caneta preto",
+  "price": 4
+}
+
+###
+
+DELETE http://localhost:4002/products/757bd70d-5328-4f27-ba78-fdfe7a4181c9
