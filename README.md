@@ -52,3 +52,9 @@ yarn dev
 #or
 npm run dev
 ```
+
+<h4 align="center">
+  Made by <a href="(https://github.com/Fernandamendonc)">Fernanda Mendonça 💗</a>
+</h4>
+
+<hr />
